@@ -1,0 +1,55 @@
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+
+ .background{
+     width: 400px;
+     height: 500px;
+     background-color: white;
+     text-align: center;
+     border: 2px solid gainsboro;
+     border-radius: 5px;
+ }
+     
+ .title {
+     font-size: 55px;
+ }
+ 
+ .inp1 {
+    width: 300px;
+    height: 30px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    font-size: 11px;
+    font-weight:bold;
+ }
+ .inp2{
+    width: 300px;
+    height: 30px;
+    margin: 0 0 10px 0;
+    border-radius: 5px;
+    border: 2px solid gainsboro;
+    font-size: 11px;
+    font-weight:bold;
+ }
+
+ .butt {
+     width: 308px;
+     height: 34px;
+     border: 2px solid #ffa6b3;
+     border-radius: 5px;
+     margin: 0 0 135px 0;
+     background-color: #ffa6b3;
+     font-weight:bold;
+     color: white;
+ }
+
+ .last {
+    font-size: 11px;
+    font-weight:bold;
+    color:#FA6F84;
+ }
