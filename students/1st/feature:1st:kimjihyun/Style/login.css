@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.all_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.bucks_container {
+    border: 1px solid rgba(219, 219, 219, 1);
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3.5rem;
+}
+
+.bucks_id, .bucks_password, .bucks_btn {
+    width: 310px;
+    /*height: 36px;*/
+}
+
+.bucks_id, .bucks_password {
+    background-color: #F0F0F0;
+    border-radius: 3px;
+    border: 1px solid rgba(219, 219, 219, 1);
+}
+
+.bucks_id:focus, .bucks_password:focus {
+    outline: none;
+}
+
+.bucks_id {
+    padding: 12px 10px;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.bucks_password {
+    padding: 12px 10px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+
+.bucks_btn {
+    padding: 12px 5px;
+    margin-top: 12px;
+    margin-bottom: 5px;
+    background-color: #87CEFA;
+    color: white;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.bucks_link {
+    text-decoration: none;
+    color: rgb(60, 163, 248);
+}
+
+.forget_password {
+    margin-top: 120px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}

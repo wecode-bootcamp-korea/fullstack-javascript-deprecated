@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0;
+    padding: 16px;
+    width: 100%;
+    background-color: rgb(247, 246, 243);
+}
+
+.logo > a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2rem;
+    color: black;
+}
+
+.all_container{
+    padding: 150px;
+    padding-top: 0;
+}
+
+.nav_el {
+    text-decoration: none;
+    color: rgb(153, 151, 146);
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    padding: 20px;
+}
+
+.first_banner, .second_banner {
+    width: 100%;
+    background-color: rgb(247, 246, 243);
+    padding: 25px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.coffee_list {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    padding-top: 30px;
+}
+
+.coffee_list2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.grid1 {
+    background-color: greenyellow;
+}
+
+.grid2 {
+    background-color: hotpink;
+}
+
+.grid3, .grid4, .grid5 {
+    background-color: indigo;
+}
+
+
+
+/* .products_list {
+    /* width: 100%;
+    margin-top: 30px;
+    padding: 0; */
+    /* margin: 0 auto;
+} */ 
+
+/* .coffee_list {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+    column-gap: 7px;
+    row-gap: 10px;
+    justify-content: center;
+    align-content: center;
+    padding: 0;
+    padding-top: 20px;
+} */
+
+/* .grid1 {
+    background-color: greenyellow;
+}
+
+.grid2 {
+    background-color: hotpink;
+}
+
+.grid3, .grid4, .grid5 {
+    background-color: indigo;
+}
+
+.body_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgb(247, 246, 243);
+    list-style: none;
+}
+
+.first_banner, .second_banner {
+    width: 100%;
+    background-color: rgb(247, 246, 243);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.coffee_list {
+    margin: 0;
+}
+
+.coffee_1 {
+    padding: 0;
+    margin: 0;
+}  */
+
+
+    
+    
