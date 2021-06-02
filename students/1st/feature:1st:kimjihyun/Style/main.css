@@ -1,12 +1,8 @@
+
 * {
-    box-sizing: border-box;
+    box-sizing: border-box; 
     padding: 0;
     margin: 0;
-}
-
-img {
-    width: 300px;
-    height: 300px;
 }
 
 .header {
@@ -37,111 +33,60 @@ img {
     color: rgb(153, 151, 146);
     font-weight: 500;
     font-family: 'Open Sans', sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     padding: 20px;
 }
 
-.first_banner, .second_banner {
+.list_image {
+    width: 100%;
+    height: 290px;
+}
+
+.banner_1, .banner_2 {
     width: 100%;
     background-color: rgb(247, 246, 243);
     padding: 25px;
-    margin-top: 20px;
     font-size: 1.1rem;
     font-weight: 500;
 }
 
-.coffee_list {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    column-gap: 20px;
-    row-gap: 20px;
-    justify-content: center;
-    align-content: center;
-    padding: 0;
-    padding-top: 30px;
+.banner_1 {
+    margin-top: 20px;
 }
 
-.coffee_list2 {
+.banner_2 {
+    margin: 0;
+}
+
+.banner_1 > i, .banner_2 > i, .banner_1 > .notice_text, .banner_2 > .notice_text {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.banner_1 > i, .banner_2 > i {
+    color: brown;
+}
+
+.coffee_list {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     column-gap: 20px;
-    row-gap: 20px;
-    padding: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
-.grid1 {
-    background-color: greenyellow;
+.grid > p {
+    text-align: center;
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 30px;
 }
 
-.grid2 {
-    background-color: hotpink;
+.grid > p > i {
+    padding-left: 10px;
 }
 
-.grid3, .grid4, .grid5 {
-    background-color: indigo;
-}
-
-
-
-/* .products_list {
-    /* width: 100%;
-    margin-top: 30px;
-    padding: 0; */
-    /* margin: 0 auto;
-} */ 
-
-/* .coffee_list {
-    display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
-    grid-template-rows: 2fr 2fr 2fr;
-    column-gap: 7px;
-    row-gap: 10px;
-    justify-content: center;
-    align-content: center;
-    padding: 0;
-    padding-top: 20px;
-} */
-
-/* .grid1 {
-    background-color: greenyellow;
-}
-
-.grid2 {
-    background-color: hotpink;
-}
-
-.grid3, .grid4, .grid5 {
-    background-color: indigo;
-}
-
-.body_list {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    background-color: rgb(247, 246, 243);
-    list-style: none;
-}
-
-.first_banner, .second_banner {
-    width: 100%;
-    background-color: rgb(247, 246, 243);
-    margin-top: 10px;
-    padding: 20px;
-}
-
-.coffee_list {
-    margin: 0;
-}
-
-.coffee_1 {
-    padding: 0;
-    margin: 0;
-}  */
 
 
     
