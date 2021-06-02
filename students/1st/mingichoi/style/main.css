@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+body {
+  background-color: #eeefef;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -232.5px;
+  margin-left: -187.5px;
+  width: 375px;
+  height: 465px;
+  background-color: #ffffff;
+  border: 2px solid rgb(206, 206, 206);
+  border-radius: 3px;
+}
+
+p {
+  text-align: center;
+  margin-top: 56px;
+  margin-bottom: 20px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 280px;
+  height: 35px;
+  margin-top: 15px;
+  padding-left: 10px;
+  border-radius: 3px;
+  background-color: #f7f7f7;
+  border: 2px solid rgb(202, 202, 202);
+}
+
+.loginBtn {
+  box-sizing: border-box;
+  width: 280px;
+  height: 35px;
+  padding: 0;
+  border: none;
+  border-radius: 7px;
+  background-color: #98d4f1;
+  color: #ffffff;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+a {
+  margin-top: 120px;
+  font-size: 13px;
+  text-decoration: none;
+  color: darkblue;
+}
