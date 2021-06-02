@@ -36,9 +36,9 @@ const handleInput = () => {
   toggleBtnLogin();
 };
 
-const init = () => {
+const loginInit = () => {
   idInput.addEventListener("keyup", handleInput);
   pwInput.addEventListener("keyup", handleInput);
 };
 
-init();
+loginInit();

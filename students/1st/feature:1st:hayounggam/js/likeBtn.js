@@ -5,10 +5,10 @@ const toggleLikeBtns = (event) => {
   target.classList.toggle("fas");
 }
 
-const init = () => {
+const likeBtnInit = () => {
   likeBtns.forEach(likebtn =>
     likebtn.addEventListener("click", toggleLikeBtns)
   )
 }
 
-init();
+likeBtnInit();
