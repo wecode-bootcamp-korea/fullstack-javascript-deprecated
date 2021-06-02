@@ -1,0 +1,30 @@
+/**************************
+<footer>
+**************************/
+.footer {
+  width: 100%;
+  color: var(--white-color);
+  background: var(--black-secondary-color);
+}
+
+.footer > .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0;
+}
+
+.footer-menu > h4 {
+  margin-bottom: 13px;
+  font-size: var(--font-small);
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.footer-list > li {
+  margin-bottom: 5px;
+  font-size: var(--font-small);
+}
