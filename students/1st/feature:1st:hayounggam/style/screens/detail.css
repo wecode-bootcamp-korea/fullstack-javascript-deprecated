@@ -1,10 +1,15 @@
 /**************************
 detail.html
 **************************/
+.beverage-title {
+  font-size: var(--font-xxlarge);
+}
+
 /* breadcrumbs */
 .breadcrumbs {
   display: flex;
   justify-content: flex-end;
+  margin-bottom: 20px;
   color: var(--grey-700);
 }
 
@@ -19,7 +24,7 @@ detail.html
   font-weight: 300;
 }
 
-.breadcrumbs li:hover > a {
+.breadcrumbs li > a:hover {
   text-decoration: underline;
 }
 
@@ -38,4 +43,146 @@ detail.html
 
 .breadcrumbs li:last-child {
   margin-right: 0;
+}
+
+/* beverage-detail-area */
+.beverage-detail-area {
+  display: flex;
+  justify-content: space-between;
+  gap: 0 40px;
+}
+
+.beverage-img-box {
+  flex: 1 1 40%;
+}
+
+.beverage-img {
+  height: 470px;
+  object-fit: cover;
+  object-position: 0 58%;
+}
+
+.beverage-info-box {
+  flex: 1 1 60%;
+}
+
+/* beverage-name-wrap */
+.beverage-name-wrap {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 2px solid var(--black-primary-color);
+}
+
+.beverage-name-wrap .beverage-name {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  font-size: var(--font-xlarge);
+}
+
+.beverage-name-wrap .beverage-eng-name {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  font-size: var(--font-small);
+}
+
+.beverage-name-wrap .btn-like-wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  grid-column: 2 / 3;
+  grid-row: 1 / 3;
+}
+
+/* beverage-desc */
+.beverage-desc {
+  margin-bottom: 20px;
+  font-size: var(--font-medium);
+}
+
+/* beverage-nutrition-wrap */
+.beverage-nutrition-wrap {
+  margin-bottom: 50px;
+}
+
+.beverage-nutrition-title {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 15px;
+  font-size: var(--font-large);
+  border-top: 1px solid var(--grey-200);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.beverage-nutrition-table {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.beverage-nutrition-table .beverage-nutrition-list {
+  flex: 1 1 50%;
+}
+
+.beverage-nutrition-table .beverage-nutrition-list > li {
+  margin: 5px 0 10px;
+  padding: 0 15px;
+  font-size: var(--font-medium);
+}
+
+.beverage-nutrition-table .beverage-nutrition-list > li:last-child {
+  margin: 5px 0 30px;
+}
+
+.beverage-nutrition-table .beverage-nutrition-list dl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.beverage-nutrition-table .beverage-nutrition-list:first-child {
+  border-right: 1px dashed var(--grey-200);
+}
+
+.beverage-allergy-info {
+  padding: 15px;
+  background: var(--beige-200);
+  border-radius: 4px;
+}
+
+/* beverage-review-wrap */
+.beverage-review-title {
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  font-size: var(--font-large);
+  border-bottom: 1px solid var(--grey-200);
+}
+
+.beverage-review-wrap .review-input {
+  width: 100%;
+  padding: 13px 15px;
+  background: var(--beige-200);
+}
+
+.beverage-review-list {
+  margin-bottom: 30px;
+}
+
+.beverage-review-list .beverage-review-comment {
+  display: flex;
+  font-size: var(--font-medium);
+}
+
+.beverage-review-list .beverage-review-comment .reviewer-id {
+  margin-right: 5px;
+  font-weight: bold;
+}
+
+.beverage-review-list .beverage-review-comment .reviewer-comment-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-all;
 }
