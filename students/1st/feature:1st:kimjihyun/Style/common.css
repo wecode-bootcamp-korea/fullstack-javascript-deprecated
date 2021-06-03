@@ -1,0 +1,21 @@
+:root {
+    /* Color List*/
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --red-color: #FF0000;
+    --brown-color: #4e342e;
+    --gray-nav-color: #999792;
+    --gray-icon_color: #616161;
+    --blue-color: #3CA3F8;
+    --green-color: #008000;
+    --background-login-first-color: #F0F0F0;
+    --background-login-second-color: #DBDBDB;
+    --background-login-third-color: #87CEFA;
+    --background-main-first-color: #F7F6F3;
+    /* Font List*/
+    --font-size-login-large: 3.5rem;
+    --font-size-login-medium: 1rem;
+    --font-size-login-small: 0.8rem; 
+    --font-size-main-large: 2rem;
+    --font-size-main-medium: 1rem;
+}
