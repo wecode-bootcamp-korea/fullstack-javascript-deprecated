@@ -11,8 +11,9 @@ html, body {
 
 .logo {
     font-family: 'Dancing Script', cursive;
-    font-size: 70px;
-    margin: 40px;
+    font-size: 60px;
+    margin-top: 40px;
+
 }
 
 .main-container {
@@ -24,25 +25,37 @@ html, body {
 }
 
 .main-wrap{
-    background-color: white;
-    border: 1px solid black;
-    width: 400px;
+    background: white;
+    border: 2px solid lightgray;
+    width: 350px;
     height: 500px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 80px;
 }
 
 .login {
-    width: 250px;
-    height: 80px;
-    display: flex;
+     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    margin-top: 20px;
 }   
 
 input {
-    margin: 5px 0px;
+    margin: 8px 0px;
+    width: 280px;
+    height: 35px;
+    
+    /* background-color: lightgray;
+    opacity: 0.5; */
+}
 
+.btn {
+    margin: 8px 0px;
+    width: 280px;
+    height: 35px; 
+    border: none;
+    border-radius: 10px;
 }
 
