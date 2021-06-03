@@ -1,77 +1,71 @@
+@import 'common.css';
+
+/*이미 생성해둔 CSS였어서 reset.css 적용 시 레이아웃이 다소 달라져서 뺐고 부득이하게 *에 스타일을 주었습니다.*/
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-.all_container {
+.allContainer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0;
     height: 100vh;
+    margin: 0;
 }
 
-.bucks_container {
-    border: 1px solid rgba(219, 219, 219, 1);
-    width: 400px;
-    height: 500px;
-    text-align: center;
+.bucksContainer {
     display: flex;
     flex-direction: column;
+    width: 400px;
+    height: 500px;
+    border: 1px solid var(--background-login-second-color);
+    text-align: center;
 }
 
 .title {
     margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: var(--font-size-login-large);
     font-family: 'Dancing Script', cursive;
-    font-size: 3.5rem;
 }
 
-.bucks_id, .bucks_password, .bucks_btn {
+.bucks, .bucksBtn {
     width: 310px;
-    /*height: 36px;*/
 }
 
-.bucks_id, .bucks_password {
-    background-color: #F0F0F0;
+.bucks {
+    border: 1px solid var(--background-login-second-color);
     border-radius: 3px;
-    border: 1px solid rgba(219, 219, 219, 1);
-}
-
-.bucks_id:focus, .bucks_password:focus {
+    background-color: var(--background-login-first-color);
     outline: none;
 }
 
-.bucks_id {
+.bucks {
     padding: 12px 10px;
-    margin-top: 40px;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
-.bucks_password {
-    padding: 12px 10px;
-    margin-top: 12px;
-    margin-bottom: 5px;
-}
-
-.bucks_btn {
+.bucksBtn {
     padding: 12px 5px;
     margin-top: 12px;
     margin-bottom: 5px;
-    background-color: #87CEFA;
-    color: white;
-    font-size: 1rem;
-    border-radius: 10px;
     border: none;
+    border-radius: 10px;
+    color: var(--white-color);
+    background-color: var(--background-login-third-color);
+    font-size: var(--font-size-login-medium);
 }
 
-.bucks_link {
+.bucksLink {
+    color: var(--blue-color);
     text-decoration: none;
-    color: rgb(60, 163, 248);
 }
 
-.forget_password {
+.forgetPassword {
     margin-top: 120px;
-    font-size: 0.8rem;
+    font-size: var(--font-size-login-small);
     font-weight: 500;
 }
