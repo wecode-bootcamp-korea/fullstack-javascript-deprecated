@@ -1,6 +1,6 @@
-const idInput = document.querySelector("#js-id-input"),
-  pwInput = document.querySelector("#js-pw-input"),
-  btnLogin = document.querySelector(".btn-login");
+const idInput = document.querySelector("#js-id-input");
+const pwInput = document.querySelector("#js-pw-input");
+const btnLogin = document.querySelector(".btn-login");
 
 const toggleBtnLogin = () => {
   const idLength = idInput.value.length;

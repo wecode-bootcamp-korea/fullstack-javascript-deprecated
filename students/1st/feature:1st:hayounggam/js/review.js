@@ -1,8 +1,8 @@
-const form = document.querySelector(".review-form"),
-  idInput = document.querySelector(".js-review-id-input"),
-  commentInput = document.querySelector(".js-review-comment-input"),
-  reviewList = document.querySelector(".beverage-review-list"),
-  noReview = document.querySelector(".no-review-message");
+const form = document.querySelector(".review-form");
+const idInput = document.querySelector(".js-review-id-input");
+const commentInput = document.querySelector(".js-review-comment-input");
+const reviewList = document.querySelector(".beverage-review-list");
+const noReview = document.querySelector(".no-review-message");
 
 const printReview = (id, comment) => {
   if (noReview) {
