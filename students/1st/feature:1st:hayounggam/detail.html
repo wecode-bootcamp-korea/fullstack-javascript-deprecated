@@ -103,21 +103,18 @@
           <div class="beverage-review-wrap">
             <h4 class="beverage-review-title">리뷰</h4>
             <ul class="beverage-review-list">
-              <li class="beverage-review-comment">
-                <a class="reviewer-id" href="#">coffee_lover</a>
-                <p class="reviewer-comment-content">너무 맛있어요!</p>
-              </li>
-              <li class="beverage-review-comment">
-                <a class="reviewer-id" href="#">CHOCO7</a>
-                <p class="reviewer-comment-content">오늘도 화이트 초콜릿 모카를 마시러 갑니다.</p>
-              </li>
-              <li class="beverage-review-comment">
-                <a class="reviewer-id" href="#">legend_dev</a>
-                <p class="reviewer-comment-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae iure natus magnam laudantium vero, mollitia necessitatibus sit eos culpa commodi neque magni praesentium expedita exercitationem dolore porro earum voluptas maiores.</p>
-              </li>
+              <li class="no-review-message">현재 등록된 리뷰가 없습니다.</li>
             </ul>
             <form class="review-form">
-              <input class="review-input" type="text" placeholder="리뷰를 입력해주세요." />
+              <div class="review-input-wrap">
+                <label for="review-id">ID</label>
+                <input id="review-id" class="js-review-id-input review-input" type="text" placeholder="ID를 입력해주세요." maxlength="12" />
+              </div>
+              <div class="review-input-wrap">
+                <label for="review-comment">COMMENT</label>
+                <input id="review-comment" class="js-review-comment-input review-input" type="text" placeholder="리뷰를 입력해주세요." maxlength="300" />
+              </div>
+              <input type="submit" />
             </form>
           </div>
         </div>

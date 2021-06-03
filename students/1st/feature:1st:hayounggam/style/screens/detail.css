@@ -158,24 +158,48 @@ detail.html
   border-bottom: 1px solid var(--grey-200);
 }
 
+.review-form .review-input-wrap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.review-input-wrap label {
+  flex: 1 1 20%;
+  color: var(--grey-700);
+  font-family: 'Poppins', sans-serif;
+}
+
 .beverage-review-wrap .review-input {
-  width: 100%;
+  flex: 1 1 80%;
   padding: 13px 15px;
-  background: var(--beige-200);
+  border: 1px solid var(--beige-200);
+  border-radius: 4px;
+}
+
+.review-form input[type='submit'] {
+  display: none;
 }
 
 .beverage-review-list {
   margin-bottom: 30px;
 }
 
+.beverage-review-list .no-review-message {
+  color: var(--grey-600);
+  font-size: var(--font-medium);
+}
+
 .beverage-review-list .beverage-review-comment {
   display: flex;
+  margin-bottom: 3px;
+  gap: 0 5px;
   font-size: var(--font-medium);
 }
 
 .beverage-review-list .beverage-review-comment .reviewer-id {
-  margin-right: 5px;
   font-weight: bold;
+  word-break: keep-all;
 }
 
 .beverage-review-list .beverage-review-comment .reviewer-comment-content {
