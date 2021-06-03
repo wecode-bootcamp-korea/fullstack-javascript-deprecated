@@ -20,11 +20,14 @@
   text-transform: uppercase;
 }
 
-.footer-menu a:hover {
-  text-decoration: underline;
+.footer-menu > small {
+  display: block;
 }
 
-.footer-list > li {
+.footer-menu > small:not(:last-child) {
   margin-bottom: 5px;
-  font-size: var(--font-small);
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
 }
