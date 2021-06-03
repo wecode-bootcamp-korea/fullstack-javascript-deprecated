@@ -5,8 +5,8 @@ const toggleLikeBtns = (event) => {
 }
 
 const likeBtnInit = () => {
-  likeBtns.forEach(likebtn =>
-    likebtn.addEventListener("click", toggleLikeBtns)
+  likeBtns.forEach(likeBtn =>
+    likeBtn.addEventListener("click", toggleLikeBtns)
   )
 }
 
