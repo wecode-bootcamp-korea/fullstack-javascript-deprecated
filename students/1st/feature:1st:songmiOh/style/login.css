@@ -1,0 +1,22 @@
+.Configuration {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgba(255,255,247, 1);
+}
+
+.loginsreen {
+    border: 1px solid rgba(192, 192, 192, 1);
+    width: 450px;
+    height: 550px;
+    background-color: rgba(248, 249, 250, 1);
+    border-radius: 4px;
+}
+.title {
+    color: rgba(0, 102, 51, 1);
+    font-family:  'Dancing Script', cursive;
+    font-size: 35px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
