@@ -8,4 +8,4 @@ documnet.addEventListener('keyup', function(e) {
             color.style.backgroundColor = rgb(0, 103, 163);
         }
     }
-});
+})
