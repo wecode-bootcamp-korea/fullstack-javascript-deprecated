@@ -1,9 +1,12 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 
 body {
   background-color: #eeefef;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 .container {
@@ -31,7 +34,6 @@ p {
 }
 
 input {
-  box-sizing: border-box;
   width: 280px;
   height: 35px;
   margin-top: 15px;
@@ -42,7 +44,6 @@ input {
 }
 
 .loginBtn {
-  box-sizing: border-box;
   width: 280px;
   height: 35px;
   padding: 0;
