@@ -2,9 +2,6 @@ const idInput = document.querySelector("#js-id-input"),
   pwInput = document.querySelector("#js-pw-input"),
   btnLogin = document.querySelector(".btn-login");
 
-const GREEN_COLOR = "#00704a";
-const GREY_COLOR = "#dddddd";
-
 const toggleBtnLogin = () => {
   const idLength = idInput.value.length;
   const pwLength = pwInput.value.length;
@@ -15,19 +12,15 @@ const toggleBtnLogin = () => {
 };
 
 const changeIdInputBorder = () => {
-  if (idInput.value.includes("@")) {
-    idInput.style.borderColor = GREEN_COLOR;
-  } else {
-    idInput.style.borderColor = GREY_COLOR;
-  }
+  idInput.value.includes("@")
+    ? idInput.classList.add("active")
+    : idInput.classList.remove("active");
 };
 
 const changePwInputBorder = () => {
-  if (pwInput.value.length >= 8) {
-    pwInput.style.borderColor = GREEN_COLOR;
-  } else {
-    pwInput.style.borderColor = GREY_COLOR;
-  }
+  pwInput.value.length >= 8
+    ? pwInput.classList.add("active")
+    : pwInput.classList.remove("active");
 }
 
 const handleInput = () => {
