@@ -30,8 +30,8 @@ const handleInput = () => {
 };
 
 const loginInit = () => {
-  idInput.addEventListener("keyup", handleInput);
-  pwInput.addEventListener("keyup", handleInput);
+  idInput.addEventListener("input", handleInput);
+  pwInput.addEventListener("input", handleInput);
 };
 
 loginInit();
