@@ -1,7 +1,7 @@
 
 @import 'common.css';
 
-/*이미 생성해둔 CSS였어서 reset.css 적용 시 레이아웃이 다소 달라져서 부득이하게 *에 스타일을 주었습니다.*/
+/*이미 생성해둔 CSS였어서 reset.css 적용 시 레이아웃이 다소 달라져서 부득이하게 *에 스타일을 주었습니다.*/ 
 
 * {
     box-sizing: border-box;
@@ -47,6 +47,12 @@
     height: 280px;
     object-fit: cover;
     object-position: 45% 60%;
+}
+
+.listImage:hover {
+    transform: scale(1.1);
+    transition: transform 1s;
+    cursor: pointer;
 }
 
 .banner1, .banner2 {
