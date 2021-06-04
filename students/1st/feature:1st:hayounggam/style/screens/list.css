@@ -32,7 +32,7 @@ list.html
 /* grid item */
 .grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 40px 20px;
 }
 
@@ -44,7 +44,6 @@ list.html
 
 .drinks-link {
   display: block;
-  width: 260px;
   height: 260px;
   margin-bottom: 13px;
   overflow: hidden;
@@ -55,8 +54,7 @@ list.html
 }
 
 .drinks-img {
-  width: 260px;
-  height: 260px;
+  height: 100%;
   transition: 0.9s cubic-bezier(0.34, 0.75, 0.58, 1);
   object-fit: cover;
 }
