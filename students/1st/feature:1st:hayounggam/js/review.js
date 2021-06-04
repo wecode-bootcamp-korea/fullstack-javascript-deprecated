@@ -27,11 +27,11 @@ const printReview = (id, comment) => {
   liTag.appendChild(pTag);
   liTag.appendChild(iTag);
   liTag.appendChild(removeBtn);
-  liTag.className = "beverage-review-comment";
-  aTag.className = "reviewer-id";
-  pTag.className = "reviewer-comment-content";
+  liTag.classList.add("beverage-review-comment");
+  aTag.classList.add("reviewer-id");
+  pTag.classList.add("reviewer-comment-content");
   iTag.classList.add("js-like-btn", "far", "fa-heart");
-  removeBtn.className = "btn-remove-comment";
+  removeBtn.classList.add("btn-remove-comment");
   aTag.innerHTML = id;
   pTag.innerText = comment;
   removeBtn.innerText = "❌";
