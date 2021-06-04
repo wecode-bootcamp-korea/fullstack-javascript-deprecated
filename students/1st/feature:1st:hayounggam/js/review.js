@@ -4,6 +4,14 @@ const commentInput = document.querySelector(".js-review-comment-input");
 const reviewList = document.querySelector(".beverage-review-list");
 const noReview = document.querySelector(".no-review-message");
 
+const removeReview = (event) => {
+  event.target.parentNode.remove();
+
+  if (!reviewList.children.length) {
+    reviewList.appendChild(noReview);
+  }
+}
+
 const printReview = (id, comment) => {
   if (noReview) {
     noReview.remove();
@@ -12,14 +20,20 @@ const printReview = (id, comment) => {
   const liTag = document.createElement("li");
   const aTag = document.createElement("a");
   const pTag = document.createElement("p");
+  const removeBtn = document.createElement("button");
   reviewList.appendChild(liTag);
   liTag.appendChild(aTag);
   liTag.appendChild(pTag);
+  liTag.appendChild(removeBtn);
   liTag.className = "beverage-review-comment";
   aTag.className = "reviewer-id";
   pTag.className = "reviewer-comment-content";
+  removeBtn.className = "btn-remove-comment";
   aTag.innerHTML = id;
   pTag.innerText = comment;
+  removeBtn.innerText = "❌";
+
+  removeBtn.addEventListener("click", removeReview);
 }
 
 const getInputValue = (event) => {

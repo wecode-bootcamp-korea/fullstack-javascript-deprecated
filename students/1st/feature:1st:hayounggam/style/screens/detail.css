@@ -210,3 +210,7 @@ detail.html
   text-overflow: ellipsis;
   word-break: break-all;
 }
+
+.beverage-review-list .beverage-review-comment .btn-remove-comment {
+  line-height: 1.6;
+}
