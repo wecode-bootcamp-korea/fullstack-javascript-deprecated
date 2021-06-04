@@ -21,19 +21,23 @@ const printReview = (id, comment) => {
   const aTag = document.createElement("a");
   const pTag = document.createElement("p");
   const removeBtn = document.createElement("button");
+  const iTag = document.createElement("i");
   reviewList.appendChild(liTag);
   liTag.appendChild(aTag);
   liTag.appendChild(pTag);
+  liTag.appendChild(iTag);
   liTag.appendChild(removeBtn);
   liTag.className = "beverage-review-comment";
   aTag.className = "reviewer-id";
   pTag.className = "reviewer-comment-content";
+  iTag.classList.add("js-like-btn", "far", "fa-heart");
   removeBtn.className = "btn-remove-comment";
   aTag.innerHTML = id;
   pTag.innerText = comment;
   removeBtn.innerText = "❌";
 
   removeBtn.addEventListener("click", removeReview);
+  likeBtnInit();
 }
 
 const getInputValue = (event) => {

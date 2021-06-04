@@ -211,6 +211,10 @@ detail.html
   word-break: break-all;
 }
 
+.beverage-review-list .beverage-review-comment .fa-heart {
+  line-height: 1.5;
+}
+
 .beverage-review-list .beverage-review-comment .btn-remove-comment {
-  line-height: 1.6;
+  line-height: 1.5;
 }
