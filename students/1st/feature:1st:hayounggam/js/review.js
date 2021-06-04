@@ -32,9 +32,9 @@ const printReview = (id, comment) => {
   pTag.classList.add("reviewer-comment-content");
   iTag.classList.add("js-like-btn", "far", "fa-heart");
   removeBtn.classList.add("btn-remove-comment");
-  aTag.innerHTML = id;
-  pTag.innerText = comment;
-  removeBtn.innerText = "❌";
+  aTag.textContent = id;
+  pTag.textContent = comment;
+  removeBtn.textContent = "❌";
 
   removeBtn.addEventListener("click", removeReview);
   likeBtnInit();
