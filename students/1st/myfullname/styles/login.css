@@ -5,7 +5,7 @@
 }
 
 html, body {
-    background-color: #EEEFEF;
+    background-color:#EEEFEF;
     width: 100%;
     height: 100%;   
 }
@@ -13,7 +13,6 @@ html, body {
 .logo {
     font-family: 'Dancing Script', cursive;
     font-size: 60px;
-    margin-top: 40px;
 
 }
 
@@ -32,8 +31,8 @@ html, body {
     align-items: center;
     background: white; 
     width: 350px;
-    height: 500px;
     border: 2px solid lightgray;
+    padding: 40px;
 }
 
 .login {
@@ -44,15 +43,38 @@ html, body {
 }   
 
 input {
-    margin: 8px 0px;
     width: 280px;
-    height: 35px;
+    height: 40px;
+    background-color: #F7F7F7;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin: 8px 0px;
+    padding: 1px 8px;
+    outline: none;
 }
 
 .btn {
+    background-color:#87ADC4;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
     margin: 8px 0px;
     width: 280px;
-    height: 35px; 
+    height: 40px; 
     border: none;
     border-radius: 10px;
+}
+
+.active {
+    background-color:#539ecc;
+}
+
+footer {
+   margin-top: 90px;
+   font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #87ADC4;
 }
