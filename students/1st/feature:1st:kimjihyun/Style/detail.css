@@ -1,0 +1,69 @@
+@import 'reset-2.css';
+@import 'common.css';
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+    margin: 0;
+    padding: 16px;
+    background-color: var(--background-main-first-color);
+}
+
+.logo > a {
+    color: var(--black-color);
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: var(--font-size-main-large);
+}
+
+.navElement {
+    padding: 20px;
+    color: var(--gray-nav-color);
+    font-size: var(--font-size-main-medium);
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer {
+    width: 100%;
+    color: var(--white-color);
+    background-color: var(--brown-detail-color);
+
+}
+
+.footerMenu {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.footList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.footList > .listHeader {
+    padding-bottom: 15px;
+    font-size: var(--font-size-detail-small);
+    text-transform: uppercase;
+}
+
+.footList > a {
+    color: var(--white-color);
+    padding: 5px;
+    font-size: var(--font-size-detail-small);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.footList > a:hover {
+    text-decoration: underline;
+}

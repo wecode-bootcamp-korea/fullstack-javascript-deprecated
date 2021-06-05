@@ -7,7 +7,8 @@
     --gray-nav-color: #999792;
     --gray-icon_color: #616161;
     --blue-color: #3CA3F8;
-    --green-color: #008000;
+    --green-color: #018157;
+    --brown-detail-color: #2C2A29;
     --background-login-first-color: #F0F0F0;
     --background-login-second-color: #DBDBDB;
     --background-login-third-color: #87CEFA;
@@ -18,4 +19,5 @@
     --font-size-login-small: 0.8rem; 
     --font-size-main-large: 2rem;
     --font-size-main-medium: 1rem;
+    --font-size-detail-small: 0.8rem;
 }
