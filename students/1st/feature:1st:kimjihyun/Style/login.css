@@ -1,6 +1,6 @@
 @import 'common.css';
 
-/*이미 생성해둔 CSS였어서 reset.css 적용 시 레이아웃이 다소 달라져서 뺐고 부득이하게 *에 스타일을 주었습니다.*/
+/*이미 생성해둔 CSS였어서 reset.css 적용 시 레이아웃이 다소 달라져서 부득이하게 *에 스타일을 주었습니다.*/
 
 * {
     box-sizing: border-box;
@@ -32,20 +32,21 @@
     font-family: 'Dancing Script', cursive;
 }
 
-.bucks, .bucksBtn {
+.bucksLogin, .bucksBtn {
     width: 310px;
 }
 
-.bucks {
+.bucksLogin {
+    padding: 12px 10px;
+    margin-top: 10px;
     border: 1px solid var(--background-login-second-color);
     border-radius: 3px;
     background-color: var(--background-login-first-color);
     outline: none;
 }
 
-.bucks {
-    padding: 12px 10px;
-    margin-top: 10px;
+.bucksLogin.active {
+    border-color: var(--green-color);
 }
 
 .bucksBtn {
@@ -57,6 +58,16 @@
     color: var(--white-color);
     background-color: var(--background-login-third-color);
     font-size: var(--font-size-login-medium);
+}
+
+.bucksBtn:disabled,
+ bucksBtn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.bucksBtn:enabled {
+    cursor: pointer;
 }
 
 .bucksLink {
