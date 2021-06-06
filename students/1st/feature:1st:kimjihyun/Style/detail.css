@@ -1,7 +1,6 @@
 @import 'reset-2.css';
 @import 'common.css';
 
-
 .header {
     display: flex;
     flex-direction: row;
@@ -34,6 +33,7 @@
     width: 100%;
     color: var(--white-color);
     background-color: var(--brown-detail-color);
+    padding: 0;
 
 }
 
@@ -66,4 +66,205 @@
 
 .footList > a:hover {
     text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+    margin-top: 0;
+    background: var(--white-color);
+}
+
+.subtitle {
+    position: relative;
+}
+
+.titleList {
+    position: absolute;
+    right: 0;
+}
+
+.subtitleText {
+    font-size: var(--font-size-main-large);
+    font-weight: 600;
+}
+
+.titleList > a {
+    color: var(--gray-nav-color);
+    font-size: small;
+    text-decoration: none;
+}
+
+
+.headerContainer, .main, .product {
+    padding: 70px;
+    padding-top: 0;
+    padding-bottom: 30px;
+}
+
+.product {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.productAllContent {
+    flex: 1 1 90%;
+    margin-left: 30px;
+}
+
+.mocha {
+    flex: 1 1 50%;
+    height: 420px;
+    object-fit: cover;
+}
+
+.productName {
+    margin-bottom: 20px;
+}
+
+.productName > h4 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--dark-head-color);
+}
+
+.productName > span {
+    font-size: 14px;
+    font-family: "Arial";
+    font-weight: normal;
+    color: var(--brown-footer-color);
+}
+
+.explain {
+    border-top: 2px solid var(--brown-text-color);
+}
+
+.explain > p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: var(--font-size-login-medium);
+    color: var(--brown-p-color);
+    line-height: 1.6;
+    min-height: 40px;;
+}
+
+.productInfor {
+    position: relative;
+}
+
+.heartIcon {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    cursor: pointer;
+}
+
+.nutriName {
+    position: relative;
+    padding-left: 20px;
+    border-top: 1px solid var(--light-border-color);
+    border-bottom: 1px solid var(--light-border-color);
+    line-height: 59px;
+}
+
+.nutriExplain {
+    font-size: 1.1rem;
+}
+
+.InfoText {
+    position: absolute;
+    top: 2px;
+    right: 0;
+    padding-right: 20px;
+    font-size: var(--font-size-text-detail-small);
+}
+
+.productInfoContent {
+    margin: 20px 0;
+}
+
+.productInfoContent > ul {
+    width: 50%;
+}
+
+.fa-heart {
+    color: var(--gray-icon_color);
+}
+
+.fas.fa-heart {
+    color:var(--red-color);
+}
+
+.productInfoContent {
+    width: 100%;
+    font-size: 14px;
+    color: var(--brown-p-color);
+}
+
+.allergy {
+    padding: 20px;
+    background-color: var(--background-detail-color);
+    border-radius: 5px;
+}
+
+.allergy > p{
+    font-weight: 500;
+}
+
+.review {
+    border-bottom: 1px solid var(--light-border-color);
+}
+
+.review > p {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: var(--font-size-text-detail-small2);
+    font-weight: 700;
+}
+
+.reviewText {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.reviewContainer {
+    padding: 10px;
+    background-color: var(--background-detail-color);
+    border-radius: 5px;
+}
+
+.inputReview {
+    width: 500px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: var(--font-size-login-medium);
+    outline: none;
+}
+
+.textcontainer {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.text {
+    margin-right: 8px;
+    font-weight: 600;
+}
+
+.productInfoContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.dataList, .dataList2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.dataList {
+    border-right: 0.5px dashed var(--gray-border-color);
 }

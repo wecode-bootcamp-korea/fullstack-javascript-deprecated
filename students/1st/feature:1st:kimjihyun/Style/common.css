@@ -2,17 +2,24 @@
     /* Color List*/
     --white-color: #FFFFFF;
     --black-color: #000000;
+    --dark-head-color: #222;
     --red-color: #FF0000;
     --brown-color: #4e342e;
+    --brown-text-color: #333;
+    --brown-p-color: #444;
+    --brown-footer-color: #666;
     --gray-nav-color: #999792;
     --gray-icon_color: #616161;
+    --gray-border-color: #D3D3D3;
     --blue-color: #3CA3F8;
     --green-color: #018157;
     --brown-detail-color: #2C2A29;
+    --light-border-color: #ddd;
     --background-login-first-color: #F0F0F0;
     --background-login-second-color: #DBDBDB;
     --background-login-third-color: #87CEFA;
     --background-main-first-color: #F7F6F3;
+    --background-detail-color: #eeeeee;
     /* Font List*/
     --font-size-login-large: 3.5rem;
     --font-size-login-medium: 1rem;
@@ -20,4 +27,6 @@
     --font-size-main-large: 2rem;
     --font-size-main-medium: 1rem;
     --font-size-detail-small: 0.8rem;
+    --font-size-text-detail-small: 1.1rem;
+    --font-size-text-detail-small2: 1.2rem;
 }
