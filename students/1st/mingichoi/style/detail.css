@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.navi {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #f6f5ef;
+}
+
+.navi .naviTitle {
+  color: #121212;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navi .naviMenu a{
+  color: #c0bfbb;
+  font-size: 0.5em;
+  margin-left: 15px;
+}
+
+.container {
+  width: 1000px;
+}
+
+.naviTitle {
+  float: left;
+}
+
+.naviMenu {
+  text-align: right;
+}

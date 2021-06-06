@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.navi {
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #f6f5ef;
+}
+
+.navi .naviTitle {
+  color: #121212;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navi .naviMenu a{
+  color: #c0bfbb;
+  font-size: 0.5em;
+  margin-left: 15px;
+}
+
+.menuIntro {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  background-color: #f6f5ef;
+}
+
+.menuName {
+  margin-right: 10px;
+}
+
+.menuIntro img {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.menuDescription {
+  font-size: 0.8em;
+}
+
+.container {
+  width: 1000px;
+}
+
+.naviTitle {
+  float: left;
+}
+
+.naviMenu {
+  text-align: right;
+}
+
+.menuImage {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  width: 1000px;
+  background-color: transparent;
+}
+
+a {
+  text-align: center;
+  text-decoration: none;
+}
+
+.menuImage a .shopProductName {
+  margin-bottom: 10px;
+}
+
+.shopProductName {
+  color: #121212;
+}
+
+.wrapper img {
+  width: 230px;
+  height: 230px;
+}
+
+.wrapper {
+  width: 230px;
+  height: 230px;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.wrapper:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+
+}
