@@ -21,7 +21,8 @@ function inputIdCheck () {
 }
 
 function inputPWCheck () {
-    if (pressPW.value.length >= 8) {
+    const MIN_PASSWORD_LENGTH = 8;
+    if (pressPW.value.length >= MIN_PASSWORD_LENGTH) {
         pressPW.classList.add('active');
     } else {
         pressPW.classList.remove('active');
