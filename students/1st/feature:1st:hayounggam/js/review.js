@@ -42,8 +42,8 @@ const printReview = (id, comment) => {
 
 const getInputValue = (event) => {
   event.preventDefault();
-  let idValue = idInput.value;
-  let commentValue = commentInput.value;
+  const idValue = idInput.value;
+  const commentValue = commentInput.value;
 
   if (!idValue) {
     alert("ID를 입력해주세요🙂");
