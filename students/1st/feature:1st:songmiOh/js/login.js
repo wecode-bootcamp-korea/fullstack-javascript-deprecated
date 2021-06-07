@@ -1,11 +1,14 @@
-const info = document.getElementById('login_id');
-const info = document.getElementById('login_pw');
+const loginId = document.getElementsByClassName('loginId')[0];
+const loginPw = document.getElementsByClassName('loginPw')[0];
+const loginBt = document.getElementsByClassName("loginBt")[0];
 
-documnet.addEventListener('keyup', function(e) {
-    if (info.value !== "") {
-        if(pass.value !== "") {
-            let color = documnet.addEventListener('login_bt');
-            color.style.backgroundColor = rgb(0, 103, 163);
-        }
-    }
-})
+function changeButton() {
+  if(loginId.value.length > 0 && loginPw.value.length > 0) {
+    loginBt.style.backgroundColor = "rgb(0, 0, 250)";
+  } else {  
+    loginBt.style.backgroundColor = "rgb(135, 206, 250)";
+  }
+}
+
+loginId.addEventListener("input", changeButton);
+loginPw.addEventListener("input", changeButton);
