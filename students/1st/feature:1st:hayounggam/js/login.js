@@ -17,7 +17,8 @@ const handleIdInput = () => {
 }
 
 const handlePwInput = () => {
-  pwInput.value.length >= 8
+  const PASSWORD_MIN_LENGTH = 8;
+  pwInput.value.length >= PASSWORD_MIN_LENGTH
     ? pwInput.classList.add("active")
     : pwInput.classList.remove("active");
   toggleBtnLogin();
