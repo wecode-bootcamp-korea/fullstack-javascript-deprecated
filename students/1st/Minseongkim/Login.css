@@ -1,0 +1,72 @@
+.entirewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(242, 244, 247);
+}
+
+.box {
+    width: 600px;
+    height: 650px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 5px
+}
+
+.headline {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 140px;
+    font-size: 35px;
+    font-family: 'Dancing Script', cursive;
+    color: black;
+}
+
+.puts {
+    margin-left: 80px;
+}
+
+.putId,
+.putPw {
+    width: 430px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    background-color: rgb(242, 244, 247);
+}
+
+.putPw {
+    margin-top: 20px;
+}
+
+.loginBtn {
+    margin-left: 78px;
+    margin-top: 20px;
+    width: 440px;
+    height: 40px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: rgb(145, 173, 255);
+    color: white;
+    font-weight: bold;
+}
+
+.missPw1 {
+    margin-top: 100px;
+    margin-left: 230px;
+}
+
+.pwLink {
+    font-size: 15px;
+    font-family: NanumSquareOTF_acB;
+    font-weight: bold;
+    color: rgb(145, 173, 255);
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: NanumSquareOTF_acB;
+    src: local('다운로드/Nanumsquare_ac_OTF/NanumSquareOTF_acB.otf') format('opentype');
+}
