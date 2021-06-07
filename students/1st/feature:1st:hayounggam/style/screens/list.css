@@ -29,8 +29,8 @@ list.html
   font-size: var(--font-small);
 }
 
-/* grid item */
-.grid {
+/* list-grid */
+.list-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   grid-gap: 40px 20px;
