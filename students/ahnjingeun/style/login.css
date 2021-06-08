@@ -1,65 +1,55 @@
 body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EEEFEF;
-    min-height: 100vh;
-  }
+  background-color: rgba(192, 192, 192, 0.966);
+}
 
-.login_contaier {
-    text-align: center;
-    width: 400px;
-    height: auto;
-    border-radius: 5px;
-    padding-bottom: 15;
-    background-color: #fff;
-  }
+.login_input_form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  padding: 30px;
+  margin: auto;
+  background-color: white;
+}
   
 .login_title {
-    padding: 60px 50px;;
-    text-transform: capitalize;
-    font-size: 40px;
-    font-family: 'Dancing Script', cursive;
-  }
+  margin: 50px 0px 80px;
+  text-transform: capitalize;
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+}
   
-.login_input_form {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 10%;
-    margin-bottom: 100px;
-  }
-
 .input_ID, .input_PW {
-    margin-bottom: 15px;
-    border: 2px solid #DDDDDD;
-    border-radius: 3px;
-    padding-left: 10px;
-    height: 30px;
-    font-size: 11px;
-    font-style:inherit;
-    outline: none;
-  }
+  width:  300px;
+  height: 40px;
+  padding-left: 10px;
+  margin-bottom: 25px;
+  border: 2px solid #DDDDDD;
+  border-radius: 3px;
+  outline: none;
+  font-size: 13px;
+  font-style:inherit;
+}
 
 .login_btn {
-    border: none;
-    border-radius: 3px;
-    height: 30px;
-    background: #b37867;
-    font-size: 15px;
-    color: #DDDDDD;
-    cursor: pointer;
+  width: 316px;
+  height: 40px;
+  margin-bottom: 80px;
+  border: none;
+  border-radius: 3px;
+  background: #b37867;
+  color: #DDDDDD;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .login_forgot {
-    margin: 50Px 0px;
+  margin: 80Px 0px 50px;
 }
 
 .login_forgot a {
-    text-decoration: none;
-    color: #4298ca;
-    font-size: 15px;
+  text-decoration: none;
+  color: #4298ca;
+  font-size: 18px;
 }
