@@ -15,14 +15,12 @@ const addIDSpace = document.querySelector('.textAddID');
 // 엔터 시 input 내의 텍스트가 등록되는 기능
 function makeIDInput () {
     const inputID = reviewIDContainer.value;
-
     addIDSpace.textContent = inputID;
 }
 
 function makereviewInput (el) {
     el.preventDefault();
     const inputText = reviewIDContainer.value;
-
     addReviewSpace.textContent = inputText;
     makeIDInput();
 }
