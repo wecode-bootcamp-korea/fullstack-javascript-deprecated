@@ -19,9 +19,9 @@
     display: inline-block;
     margin-top: 30px;
     margin-left: 140px;
+    color: black;
     font-size: 35px;
     font-family: 'Dancing Script', cursive;
-    color: black;
 }
 
 .puts {
@@ -35,6 +35,10 @@
     border-radius: 10px;
     border: 1px solid lightgray;
     background-color: rgb(242, 244, 247);
+}
+
+.interact {
+    border: 2px solid green;
 }
 
 .putPw {
@@ -53,16 +57,20 @@
     font-weight: bold;
 }
 
-.missPw1 {
+.active {
+    background-color: rgb(22, 76, 224)
+}
+
+.missPw {
     margin-top: 100px;
     margin-left: 230px;
 }
 
 .pwLink {
+    color: rgb(145, 173, 255);
     font-size: 15px;
     font-family: NanumSquareOTF_acB;
     font-weight: bold;
-    color: rgb(145, 173, 255);
     text-decoration: none;
 }
 
