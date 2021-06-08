@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 * {
   box-sizing: border-box;
 }
@@ -8,6 +7,7 @@
 body {
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 .navi {
@@ -21,13 +21,23 @@ body {
   font-family: 'Dancing Script', cursive;
 }
 
+.navi ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
 .navi .naviMenu a{
+  margin-left: 15px;
   color: #c0bfbb;
   font-size: 0.5em;
-  margin-left: 15px;
+}
+
+.naviMenu a {
+  text-decoration: none;
 }
 
 .container {
+  margin: auto;
   width: 1000px;
 }
 
@@ -35,6 +45,161 @@ body {
   float: left;
 }
 
-.naviMenu {
-  text-align: right;
+.productHead {
+  margin-bottom: 20px;
+}
+
+.productHead h2 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.siteMap {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 14px;
+  color: #c0bfbb;
+}
+
+.siteMap li {
+  margin-left: 5px;
+}
+
+.siteMap li a {
+  color: #c0bfbb;
+  text-decoration: none;
+}
+
+.productImage img {
+  width: 420px;
+  height: 420px;
+}
+
+.productContents {
+  display: flex;
+}
+
+.productImage {
+  margin-right: 30px;
+}
+
+.productName h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.productName h4 {
+  margin-bottom: 20px;
+}
+
+.productName {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #121212;
+}
+
+.productDescription {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.productDescription p {
+  line-height: 130%;
+}
+
+.productInfoDetail {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 0 10px 20px 10px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.productInfoDetail p {
+  font-size: 18px;
+}
+
+.productNutriInfo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.productNutriInfo ul {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1;
+  flex-direction: column;
+}
+
+.productNutriInfo li {
+  padding: 10px;
+}
+
+.productNutriInfo ul:first-child {
+  border-right: 1px dotted #c5c5c5;
+}
+
+.productNutriInfo dl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.productFactor {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #efefef;
+}
+
+.review {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c5c5c5;
+}
+
+.review p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.inputReview input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #efefef;
+}
+
+.inputReview {
+  margin-bottom: 80px;
+}
+
+input:focus { 
+  outline: none; 
+}
+
+footer {
+  background-color: #333333;
+}
+
+.footerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 220px 40px 220px;
+  width: 100%;
+}
+
+.footerWrapper a {
+  color: #efefef;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.footerWrapper li {
+  padding: 3px;
+}
+
+.footerWrapper li:first-child {
+  padding-bottom: 5px;
 }

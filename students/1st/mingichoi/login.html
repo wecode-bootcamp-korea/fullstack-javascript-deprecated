@@ -5,16 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
-  <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/login.css">
   <title>Webucks - Login</title>
 </head>
 <body>
-  <!-- form 태그로 감싸기 / 시맨틱하게 -->
   <div class = "container">
     <p>Webucks</p>
-    <input type='text' name='userId' class="inputId" placeholder='전화번호, 사용자 이름 또는 이메일'/>
-    <input type='password' name='userPassword' class="inputPw" placeholder='비밀번호'/>
-    <button type="button" class="loginBtn" disabled>로그인</button>
+    <input type='text' class="inputId" placeholder='전화번호, 사용자 이름 또는 이메일'/>
+    <input type='password' class="inputPw" placeholder='비밀번호'/>
+    <button type="button" class="loginBtn active" onclick="location='./list.html'" disabled>로그인</button>
     <a href="">비밀번호를 잊으셨나요?</a>
   </div>
   <script src="./js/login.js"></script>

@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
 * {
   box-sizing: border-box;
 }
@@ -61,10 +60,11 @@ body {
 }
 
 .menuImage {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 20px;
   width: 1000px;
+  text-align: center;
   background-color: transparent;
 }
 
@@ -81,20 +81,18 @@ a {
   color: #121212;
 }
 
-.wrapper img {
+.menuImage a img {
   width: 230px;
   height: 230px;
 }
 
-.wrapper {
+.menuImage div a {
   width: 230px;
   height: 230px;
-  margin: 10px;
   overflow: hidden;
 }
 
-.wrapper:hover {
+.menuImage div img:hover {
   transform: scale(1.1);
   transition: 0.5s;
-
 }

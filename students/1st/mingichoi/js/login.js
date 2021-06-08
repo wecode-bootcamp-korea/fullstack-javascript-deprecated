@@ -1,8 +1,16 @@
-cosnt inputId = document.getElementsByClassName('inputId')[0];
+const inputId = document.getElementsByClassName('inputId')[0];
 const inputPw = document.getElementsByClassName('inputPw')[0];
+const loginBtn = document.getElementsByClassName('loginBtn')[0];
 
-function loginBotton (){
-  
+function handleLoginBotton (){
+  if(inputId.value.length > 0 && inputPw.value.length > 0){
+    loginBtn.classList.add("active");
+    loginBtn.disabled = false;
+  } else {
+    loginBtn.classList.remove("active");
+    loginBtn.disabled = true;
+  }
 }
 
-input.addEventListener()
+inputId.addEventListener('input', handleLoginBotton);
+inputPw.addEventListener('input', handleLoginBotton);
