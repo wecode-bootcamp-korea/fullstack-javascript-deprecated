@@ -221,23 +221,21 @@
     font-weight: 700;
 }
 
-.reviewText {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.reviewIDContainer{
+    margin-bottom: 8px;
 }
 
-.reviewContainer {
+.reviewContainer, .reviewIDContainer {
     padding: 10px;
     background-color: var(--background-detail-color);
     border-radius: 5px;
 }
 
-.inputReview {
-    width: 500px;
-    padding: 5px;
-    background-color: transparent;
+.labelForId, .labelForReview {
+    margin-left: 5px;
+    margin-right: 2px;
     font-size: var(--font-size-login-medium);
-    outline: none;
+    font-weight: 500;
 }
 
 .textcontainer {
@@ -245,9 +243,32 @@
     padding-bottom: 5px;
 }
 
-.text {
+.textinputContainer {
+    padding-top: 3px;
+}
+
+.text, .textAddID {
     margin-right: 8px;
     font-weight: 600;
+}
+
+.reviewText {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.inputID, .inputReview {
+    width: 400px;
+    padding: 5px;
+    background-color: transparent;
+    font-size: var(--font-size-login-medium);
+}
+
+.inputID:focus, .inputReview:focus {
+    margin-left: 10px;
+    outline: 1px solid var(--brown-footer-color);
+    outline-offset: 3px;
+    background: transparent;
 }
 
 .productInfoContent {
